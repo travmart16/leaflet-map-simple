@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.31, -72.99], // EDIT coordinates to re-center map
+    center: [41.31, -72.93], // EDIT coordinates to re-center map
     zoom: 9,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -45,7 +45,7 @@ var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest
     
     
   /* Display a point marker with pop-up text */
-  L.marker([42.77, -71.93]).addTo(map) // EDIT marker coordinates
+  L.marker([41.31, -72.93]).addTo(map) // EDIT marker coordinates
   .bindPopup("New Haven, CT"); // EDIT pop-up text message
 
   </script>
